@@ -19,7 +19,7 @@ def compare(med_name):
         "engine": "google_shopping",
         "q": med_name,
         "gl": "in",
-        "api_key": os.getenv("1eb7966bba89a9a96f97edd08c1abc67729ac56c4a9a109c272a128019629e8a")  # 🔐 secure way
+        "api_key": os.getenv("SERPAPI_KEY")  # 🔐 secure way
     }
 
     search = GoogleSearch(params)
